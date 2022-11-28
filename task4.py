@@ -13,10 +13,4 @@ def csv_to_list_dict(file, delimiter=",", new_line="\n") -> list[dict]:
         return dictlist_
 
 
-csv_to_list_dict(INPUT_FILE)
-
-
 print(json.dumps(csv_to_list_dict(INPUT_FILE), indent=4))
-
-
-
